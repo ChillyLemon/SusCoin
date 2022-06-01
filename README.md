@@ -1,3 +1,3 @@
 # SusCoin
 Basic one page website with MailChimp API
-Available at https://gentle-bayou-03338.herokuapp.com/
+Available at https://whispering-ocean-17646.herokuapp.com/
