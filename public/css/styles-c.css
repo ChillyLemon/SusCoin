@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bebebe;
+}
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.h2, .coloured-section{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.coloured-section{
+    background-color: #888888;
+    padding: 2rem;
+}

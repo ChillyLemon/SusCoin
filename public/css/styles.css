@@ -1,0 +1,179 @@
+body{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    padding: 1.5% 5%;
+}
+
+/* Sections */
+
+.coloured-section{
+    background-color: #bebebe;
+}
+
+section.coloured-section{
+    background-color: #888888;
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+/* Title & Intro*/
+
+.navbar .container-fluid{
+    padding: 0 12% 0;
+}
+
+.navbar-brand{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    margin: auto 20px;
+}
+
+.main-heading{
+    font-size: 3.5rem;
+    line-height: 1.25;
+}
+
+.sub-heading{
+    font-size: 2.75rem;
+}
+
+.r1c1{
+    padding: 60px 100px 50px 110px;
+    text-align: left;
+}
+
+.r1c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 100px 100px;
+    position: relative;
+}
+
+.main-img{
+    border: 2px solid #555555;
+    transform: rotate(10deg);
+    box-shadow: 0 0 0.5rem 0.5rem #555555;
+    transition-duration: 200ms;
+    position: absolute;
+    right: 37%;
+}
+
+@media (max-width: 1065px){
+    .main-img{
+        position: static;
+    }
+}
+
+@media (max-width: 768px){
+    .r1c1{
+        text-align: center;
+    }
+}
+
+/* About */
+
+#about, #join{
+    padding: 5% 1%;
+}
+
+.trust-png, .secure-png{
+    border-radius: 100%;
+    width: 150px;
+}
+
+/* Images (hover) */
+
+.trust-png:hover, .secure-png:hover, .person-png:hover{
+    background-color: #555555;
+    box-shadow: 0 0 0.5rem 0.25rem #555555;
+    transition-duration: 200ms;
+}
+
+/* Testimonials */
+
+#supporters{
+    padding: 5%;
+}
+
+.person-png{
+    border-radius: 100%;
+    width: 150px;
+}
+
+.carousel-item{
+    padding-top: 2rem;
+}
+
+.testimonial-txt{
+    margin: 0 auto;
+    width: 20rem;
+}
+
+/* Join */
+
+#join{
+    margin: 2%;
+}
+
+.form-signin .form-floating:focus-within{
+    z-index: 2;
+}
+
+.fn {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+.ln {
+      border-radius: 0;
+      margin-bottom: -1px;
+  }
+  
+.e {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+.submitbtn{
+    margin: 1.5rem;
+}
+
+/* Footer */
+
+#footer .container-fluid{
+    max-width: 100vw;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+.socials-img{
+    margin: 2rem 2rem;
+    width: 2rem;
+}
+
+@media (max-width: 401px){
+    .socials-img{
+        margin: 2rem 4rem;
+    }
+}
+
+.copyright{
+    padding-top: 4rem;
+}
